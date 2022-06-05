@@ -1,0 +1,60 @@
+// // Get a list of cities from your database
+// async function getCities(db) {
+//     const citiesCol = collection(db, 'cities');
+//     const citySnapshot = await getDocs(citiesCol);
+//     const cityList = citySnapshot.docs.map(doc => doc.data());
+//     return cityList;
+//   }
+
+//   createUserWithEmailAndPassword(auth, "email", "password")
+//   .then((userCredential) => {
+//     // Signed in 
+//     const user = userCredential.user;
+//     console.log(user);
+//     // ...
+//   })
+//   .catch((error) => {
+//     const errorCode = error.code;
+//     const errorMessage = error.message;
+//     // ..
+//   });
+
+//   // TODO: Add SDKs for Firebase products that you want to use
+// // https://firebase.google.com/docs/web/setup#available-libraries
+
+// // Your web app's Firebase configuration
+// // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+
+// <div class="vidrow">
+// 	<p id="pp">Trending now</p>
+// <iframe class ="one" src="https://www.youtube.com/embed/45VeSW7UDis" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+// <iframe class="one" src="https://www.youtube.com/embed/45VeSW7UDis?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+// 	<video class="one" controls>
+// 		<source src="https://www.youtube.com/watch?v=45VeSW7UDis">
+// 	</video>
+	
+
+// <div style="padding:56.25% 0 0 0;position:relative;"><iframe class="one" src="https://player.vimeo.com/video/336812686?h=3a81782f84&autoplay=1&loop=1&title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
+// </div>
+
+    //   if(del){
+
+//        const code = otp;
+//         confirmationResult.confirm (code) .then( (result) => {
+// // //   // User signed in successfully.
+//          const user = result.user;   
+//         console.log("user", user)})
+
+        
+//          .catch((error) => {
+//           // User couldn't sign in (bad verification code?)
+//           // ...
+//           this.setState({
+//             instruction: "OTP is incorrect. Try again or request a new OTP. To request an OTP resend, clear out the OTP field and click send again."
+      
+//         });
+//           console.log("Bad verification code");
+//         });
+
+    //   console.log("Sms sent, waiting for feedback");}

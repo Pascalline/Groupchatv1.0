@@ -1,0 +1,355 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.TopContainer{
+  width: 100%;
+  display: inline-block;
+}
+
+.TopContainer2{
+  width: 100%;
+  display: inline-block;
+}
+
+.messageContainer{
+  min-width: 40vw;
+  max-width: 60vw;
+  float: left;
+  padding: 10px;
+
+  border-radius: 40px 40px 40px 0;
+}
+
+.messageContainer2{
+  min-width: 40vw;
+  max-width: 60vw;
+  float: right;
+  padding: 10px;
+
+  border-radius: 40px 40px 40px 0;
+}
+
+.displayName{
+  font-size: 10px;
+  width: 100%;
+  margin-bottom: 5px;
+  color: black;
+}
+
+.displayName2{
+  font-size: 10px;
+  width: 100%;
+  margin-bottom: 5px;
+  color: black;
+  text-align: right;
+}
+
+.picture{
+  height: 35px;
+  width: 35px;
+  padding: 5px;
+  float: left;
+  border-radius: 50%;
+}
+
+.picture2{
+  height: 35px;
+  width: 35px;
+  padding: 5px;
+  float: right;
+  border-radius: 50%;
+}
+
+.message{
+  font-size: 14px;
+  margin-top: 5px;
+  color: black;
+  background-color: rgb(245, 245, 245);
+  padding: 10px;
+  border-radius: 40px 40px 40px 0;
+  float: left;
+}
+
+.message2{
+  font-size: 14px;
+  margin-top: 5px;
+  color: white;
+  text-align: justify;
+  background-color: rgb(37, 37, 190);
+  padding: 10px;
+  border-radius: 40px 40px 0 40px;
+  float: right;
+}
+
+.timestamp{
+  font-size: 10px;
+  margin-top: 1px;
+  color: black;
+  clear: both;
+}
+
+.timestamp2{
+  text-align: right;
+  padding-right: 10px;
+  font-size: 10px;
+  margin-top: 1px;
+  color: black;
+  clear: both; 
+}
+
+.pictureandmessage{
+  display: inline-block;
+  width: 100%;
+}
+
+.pictureandmessage2{
+  display: inline-block;
+  width: 100%;
+}
+
+.pic{
+  width: 15%;
+  float: left;
+  margin-right: 10px;
+}
+
+.pic2{
+  width: 15%;
+  float: right;
+  margin-left: 5px;
+}
+
+.nextpic{
+  width: 70%;
+  float: left;
+}
+
+.nextpic2{
+  width: 70%;
+  float: right;
+}
+
+.sendDiv{
+  text-align: center;
+  width: 100%;
+  height: 12vh;
+  background-color: rgb(37, 37, 190);
+  position: fixed;
+  bottom: 0;
+  border-top-left-radius: 20%;
+ border-top-right-radius: 20%;
+}
+
+.sendInput{
+  height: 35px;
+  width: 70%;
+  overflow-y: scroll;
+  border-radius: 5%;
+  border: none;
+  outline: none;
+  text-indent: 12px;
+  background-color: white;
+}
+
+.sendbutton{
+  height: 35px;
+  width: 35px;
+  border-radius: 5%;
+  border: none;
+  outline: none;
+  margin-bottom: -20px;
+  color: rgba(0, 0, 0, 0);
+  background-image: url('./components/SendIcon.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.sendDivLower{
+  margin-top: 20px;
+
+}
+
+.signOut{
+  outline: none;
+  line-height: 3vh;
+  font-size: 2.4vh;
+  color: rgb(37, 37, 190);
+  background-color: rgb(245, 245, 245);
+  margin-right: 20px;
+  padding: 5px;
+  margin-top: -5vh;
+  float: right;
+}
+
+.header{
+  width: 100%;
+  display: inline-block;
+  padding-bottom: 2vh;
+}
+
+.groupchat{
+  color: rgb(37, 37, 190);
+  text-align: center;
+  margin-top: 3vh;
+  font-size: 4vh;
+}
+
+.middle{
+  overflow-y: scroll;
+  scrollbar-width: none;  /*Firefox */
+  -ms-overflow-style: none;
+  width: 100%;
+  height: 70vh;
+  position: absolute;
+  bottom: 12vh;
+}
+
+.lastDiv{
+  width: 100%;
+  height: 10px;
+  background-color: white;
+}
+
+.middle::-webkit-scrollbar { 
+  display: none;  /* Safari and Chrome */
+}
+
+.groupchatLogin{
+  background-color: rgb(37, 37, 190);
+  text-align: center;
+  display: inline-block;
+  height: 100vh;
+  width: 100vw;
+  margin: auto;
+  color: rgb(245, 245, 245);
+  font-size: 22px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.groupchatLoginPic{
+  height: 300px;
+  width: 350px;
+  margin-top: 10px;
+}
+
+.groupchatLoginPhone{
+  outline: none;
+  line-height: 20px;
+  font-size: 15px;
+  color: rgb(37, 37, 190);
+  background-color: rgb(245, 245, 245);
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.groupchatLoginGoogle{
+  outline: none;
+  line-height: 20px;
+  font-size: 15px;
+  color: rgb(37, 37, 190);
+  background-color: rgb(245, 245, 245);
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.groupchatLoginH1{
+  margin-top: 20px;
+}
+
+.phoneAuthContainer{
+  background-color: rgb(37, 37, 190);
+  width: 100%;
+  padding-top: 10vh;
+  height: 100vh;
+}
+
+.phoneform{
+  width: 80%;
+}
+
+.phoneH1{
+  color:rgb(245, 245, 245);
+  margin-left: 20vw;
+}
+
+.nameP{
+  margin-top: 5vh;
+  margin-bottom: 0px;
+  font-size: 14px;
+  margin-left: 25vw;
+  color:rgb(245, 245, 245);
+}
+
+.firstname{
+  height: 25px;
+  margin-top: 0px;
+  margin-left: 25vw;
+}
+
+.phoneP{
+  margin-top: 2vh;
+  margin-bottom: 0px;
+  font-size: 14px;
+  margin-left: 25vw;
+  color:rgb(245, 245, 245);
+}
+
+.phoneno{
+  height: 25px;
+  margin-top: 0px;
+  margin-left: 25vw;
+}
+
+.instruct{
+  margin-top: 2vh;
+  margin-bottom: 0px;
+  font-size: 15px;
+  margin-left: 20vw;
+  width: 60vw;
+  color: rgb(245, 245, 245);
+}
+
+.otp{
+  margin-bottom: 0px;
+  font-size: 14px;
+  margin-left: 25vw;
+  height: 25px;
+  width: -10px;
+}
+
+.goToHome{
+  margin-top: 8vh;
+  margin-bottom: 0px;
+  font-size: 15px;
+  margin-left: -3vw;
+
+  height: 35px;
+  padding: 5px;
+  outline: none;
+  background-color: rgb(245, 245, 245);
+  color: rgb(37, 37, 190);
+}
+
+.sendNow{
+  margin-top: 4.8vh;
+  margin-bottom: 0px;
+  font-size: 15px;
+  margin-left: 2vw;
+  height: 35px;
+  padding: 4px;
+  outline: none;
+  background-color: rgb(245, 245, 245);
+  color: rgb(37, 37, 190);
+}
+
+.phoneAuthButtonContainer{
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+
+}
